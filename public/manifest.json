@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React: Responsive Bottom Navbar Component",
+  "name": "Responsive Bottom Navbar Component for React",
   "icons": [
     {
       "src": "favicon.ico",
