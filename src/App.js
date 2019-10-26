@@ -7,7 +7,7 @@ import Home from './components/routes/Home';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Router>
         <NavBar />
         <Route path="/" component={Home} exact></Route>
