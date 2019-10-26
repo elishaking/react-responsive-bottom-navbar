@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.scss';
+import Icon from './Icon';
 
 export default function NavBar() {
   return (
@@ -10,10 +11,10 @@ export default function NavBar() {
           <h1>Logo</h1>
 
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/login">Log in</Link></li>
+            <li><Link to="/"><span>Home</span> <Icon name="home" /></Link></li>
+            <li><Link to="/about"><span>About</span> <Icon name="about" /></Link></li>
+            <li><Link to="/contact"><span>Contact</span> <Icon name="contact" /></Link></li>
+            <li><Link to="/login"><span>Log in</span> <Icon name="login" /></Link></li>
           </ul>
         </nav>
       </header>

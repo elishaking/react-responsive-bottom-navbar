@@ -27,6 +27,10 @@
         margin-right: 0;
       }
     }
+
+    svg {
+      display: none;
+    }
   }
 
   @media (max-width: 760px) {
@@ -41,6 +45,14 @@
         box-shadow: 0 0 1px 0px #00000061;
         z-index: 10;
         background: #f3efe0;
+      }
+
+      span {
+        display: none;
+      }
+
+      svg {
+        display: block;
       }
     }
   }
