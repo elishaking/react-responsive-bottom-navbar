@@ -15,3 +15,9 @@ h1 {
 .container {
   padding: 3em 5vw;
 }
+
+@media (max-width: 760px) {
+  .container {
+    padding: 1em 5vw;
+  }
+}
